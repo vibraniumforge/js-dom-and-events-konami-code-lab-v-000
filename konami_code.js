@@ -5,9 +5,10 @@ function init(e) {
   // Write your JavaScript code inside the init() function
   let key = parseInt(e.which, 10);
   if (key===code[index]) {
+    console.log(index);
     index++;
     console.log(key);
-    console.log(index)
+    console.log(index);
     if (index===code.length) {
       console.log("Konami Code Activated");
       index=0;
