@@ -4,9 +4,11 @@ document.addEventListener("keydown", init);
 function init(e) {
   // Write your JavaScript code inside the init() function
   console.log(e.which);
-  const key = parseInt(e.which, 10);
+  let key = parseInt(e.which, 10);
   if (key===code[index]) {
     index++;
+    console.log(key);
+    console.log(index)
     if (index===code.length) {
       console.log("Konami Code Activated");
       index=0;
