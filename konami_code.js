@@ -7,7 +7,7 @@ function init(e) {
   console.log(e.detail);
   console.log(e.which);
   console.log(e.location);
-  const key = parseInt(e.detail||e.which, 10);
+  const key = parseInt(e.which, 10);
   if (key===code[index]) {
     index++;
     if (index===code.length) {
