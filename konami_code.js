@@ -3,7 +3,7 @@ let index=0;
 document.body.addEventListener("keydown", init);
 
 function init(e) {
-  let key = parseInt(e.keyCode, 10);
+  let key = parseInt(e.which, 10);
   if (key===code[index]) {
     index++;
     if (index===code.length) {
