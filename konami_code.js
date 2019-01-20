@@ -7,7 +7,7 @@ function init(e) {
   if (key===code[index]) {
     index++;
     if (index===code.length) {
-      console.log("Konami Code Activated!!!");
+      alert("Konami Code Activated!!!");
       index=0;
     }
   } else {
