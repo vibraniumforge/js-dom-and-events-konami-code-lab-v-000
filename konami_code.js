@@ -10,8 +10,9 @@ function init() {
         alert"Konami Code Activated!!!";
         index=0;
       }
+    }  else {
+      index=0;
     }
-    else index=0;
   });
 }
 
