@@ -3,6 +3,7 @@ let index=0;
 document.addEventListener("keydown", init);
 function init(e) {
   // Write your JavaScript code inside the init() function
+  console.log(e)
   let key = parseInt(e.which, 10);
   if (key===code[index]) {
     console.log(index);
