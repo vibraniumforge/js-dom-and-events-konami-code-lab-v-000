@@ -4,7 +4,7 @@ const main = document.getElementById('solution');
 
 
 function init(e) {
-  main.addEventListener("keydown");
+  main.addEventListener("keydown", init);
   console.log(e)
   let key = parseInt(e.which, 10);
   console.log(key)
