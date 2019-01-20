@@ -3,8 +3,8 @@ let index=0;
 
 function init() {
   document.body.addEventListener("keydown", function (e) {
-    const key=parseInt(e.which, 10);
-  });
+    const key = parseInt(e.which, 10);
+
   if (key===code[index]) {
     index++;
     if (index===code.length) {
@@ -15,3 +15,4 @@ function init() {
       index=0;
     }
   }
+    });
