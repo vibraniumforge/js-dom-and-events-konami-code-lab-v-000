@@ -11,11 +11,10 @@ function init(e) {
     console.log(key);
     console.log(index);
     if (index===code.length) {
-      console.log("Konami Code Activated");
+      console.log("Konami Code Activated!!!");
       index=0;
     }
   } else {
       index=0;
     }
   }
-
