@@ -14,8 +14,8 @@ function init(e) {
       console.log("Konami Code Activated");
       index=0;
     }
-    else {
+  } else {
       index=0;
     }
   }
-}
+
